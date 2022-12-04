@@ -1,13 +1,103 @@
+.contacto {
+  padding: 2rem 0;
+}
+
+.form {
+  width: 100%;
+  max-width: 520px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .descuentos {
-  padding-top: 20px;
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-  width: auto;
-  height: auto;
+  width: 100%;
+}
+
+.card-img {
+  height: 50%;
+}
+
+.noticias {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1028px) {
+  .card {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1027px) {
+  .card {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
+.button-nav {
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 32px;
+  border-radius: 16px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.button-nav:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.secction-title {
+  display: flex;
+  gap: 1rem;
+  margin: 20px 0 0 40px;
+  align-items: center;
+}
+.secction-title button {
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 32px;
+  border-radius: 16px;
+  padding-left: 1rem;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.secction-title button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.img-noti {
+  object-fit: cover;
+  height: 100%;
+}
+
+nav * {
+  color: white !important;
 }
 
 /*# sourceMappingURL=estilo.css.map */

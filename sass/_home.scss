@@ -1,0 +1,41 @@
+.button-nav{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 32px;
+    border-radius: 16px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.20);;
+    }
+
+}
+
+.secction-title{
+    display: flex;
+    gap: 1rem;
+    margin: 20px 0 0 40px;
+    align-items: center;
+    button {
+        display: flex;
+        align-items: center;
+        border: none;
+        height: 32px;
+        border-radius: 16px;
+        padding-left: 1rem;
+        background-color: rgba(0, 0, 0, 0.15);
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.20);;
+        }
+    }
+}
+
+.img-noti{
+    object-fit: cover;
+    height: 100%;
+}
+
+nav * {
+    color: white!important;
+}
