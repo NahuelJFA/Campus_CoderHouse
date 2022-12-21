@@ -23,6 +23,16 @@
    padding: 1rem;
 }
    
+.galeria{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+ }
+ 
+ .galeria-img{
+   max-width: 300px;
+   padding: 1rem;
+ }
 
 // desktop
 @media screen and (min-width: 1028px) {
@@ -38,8 +48,7 @@
    .card{ 
       width: 100%;
       max-width: 420px;
-   }
-   
+   }   
 }
 
 // mobile
